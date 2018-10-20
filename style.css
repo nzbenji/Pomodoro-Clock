@@ -1,0 +1,58 @@
+:root {
+    --main-theme-color: rgb(243, 168, 47);
+    --light-white: #f5f5f5;
+
+}
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.progress {
+    border-radius: 4px;
+    margin: 2rem auto;
+    width: 65%;
+    background-color: var(--light-white);
+
+}
+
+.progress__inner {
+    height: 50px;
+    width: 0%;
+    background-color: var(--main-theme-color);
+    border-right: 2px solid black;
+
+}
+
+.display {
+    background: #ccc;
+    width: 200px;
+    margin: 100px auto;
+    height: 110px;
+    position: relative;
+    padding: 20px;
+  }
+
+
+  .timer {
+    background: var(--light-white);
+    text-align: center;
+    font-size: 55px;
+    height: 100%;
+    padding-top: 5px;
+    font-family: Orbitron;
+    border-radius: 4px;
+  }
+
+  .settings {
+      position: relative;
+      margin: 20px;
+      padding: 30px;
+
+  }
+
+  .controls {
+      position: relative;
+  }
